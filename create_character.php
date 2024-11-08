@@ -11,14 +11,13 @@
 <form action="save_character.php" method ="POST">
    
     <label for="name">Name:</label>
-    <input  name ="name" type="text" id="name">
+    <input  name ="name" type="text" id="nameIput"> 
 
-    <label for="id">id:</label>
-    <input  name ="name" type="pasword" id="name">
+    <label for="descriptionInput">Descripcion:</label>
+    <input  name ="description" type="text" id="descriptionId"> 
 
-    <label for="name">Name:</label>
-    <input  name ="name" type="text" id="name">
- 
+   
+    <button type="submit">Creando mi personaje..</button>
 
 
 </form>
